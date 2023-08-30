@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./img/hiking.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--NavBar-->
+    <nav class="navbar">
+        <div class="group">
+        <img class="logi" src = "img/hiking.png" alt="Broken Image">
+        <h1 class="logo">ADVENTURE</h1>
+        </div>
+        <ul class="nav-links">
+            <li ><a href="#" style="color: whitesmoke" class="active">Home</a></li>
+            <li><a href="#" style="color: whitesmoke">Tours</a></li>
+            <li><a href="#" style="color: whitesmoke">Explore</a></li>
+            <li><a href="#" style="color: whitesmoke">About</a></li>
+            <li><a href="#"  style="color: whitesmoke" class="ctn">Contact</a></li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="#" class="menu-btn">
+    </nav>
+    <link rel="stylesheet" href="./style.css">
+    <header>
+        <div class="header-content">
+        <h2>Explore The Colorful World</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
