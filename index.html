@@ -1,43 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="icon" href="./img/hiking.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="icon" href="./img/mountain.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--NavBar-->
     <nav class="navbar">
-        <div class="group">
-        <img class="logi" src = "img/hiking.png" alt="Broken Image">
+      <div class="group">
+        <img class="logi" src="./img/mountain.png" alt="Broken Image" />
         <h1 class="logo">ADVENTURE</h1>
-        </div>
-        <ul class="nav-links">
-            <li ><a href="#" style="color: whitesmoke" class="active">Home</a></li>
-            <li><a href="#" style="color: whitesmoke">Tours</a></li>
-            <li><a href="#" style="color: whitesmoke">Explore</a></li>
-            <li><a href="#" style="color: whitesmoke">About</a></li>
-            <li><a href="#"  style="color: whitesmoke" class="ctn">Contact</a></li>
-        </ul>
-        <img src="./img/menu-btn.png" alt="#" class="menu-btn">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" style="color: whitesmoke" class="active">Home</a></li>
+        <li><a href="#" style="color: whitesmoke">Tours</a></li>
+        <li><a href="#" style="color: whitesmoke">Explore</a></li>
+        <li><a href="#" style="color: whitesmoke">About</a></li>
+        <li><a href="#" style="color: whitesmoke" class="ctn">Contact</a></li>
+      </ul>
+      <img src="./img/menu-btn.png" alt="#" class="menu-btn" />
     </nav>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <header>
-        <div class="header-content">
+      <div class="header-content">
         <h2>Explore The Colorful World</h2>
         <div class="line"></div>
         <h1>A WONDERFUL GIFT</h1>
         <a href="#" class="ctn">Learn More</a>
-        </div>
+      </div>
     </header>
-    <script>
-        const menuBtn=document.querySelector('.menu-btn')
-        const navlinks=document.querySelector('.nav-links')
+    <section class="events">
+        <div class="title">
+            <h4>UPCOMING EVENTS</h4>
+        </div>
+        <div class="line">
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1.png" alt="Broken Image">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</br>Quam assumenda quo illum!</p>
+                <a href="Learn More" class="ctn1">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/img2.png" alt="Broken Image">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</br> Quam assumenda quo illum!</p>
+                <a href="Learn More" class="ctn1">Learn More</a>
+            </div>
+        </div>
+    </section>
 
-        menuBtn.addEventListener('click',()=>{
-            navlinks.classList.toggle('mobile-menu')
-        })
+    <section class="explore">
+      <!-- <img src="./img/pexels-gantas-vaičiulėnas-1891882.jpg" alt="Broken Image"> -->
+      <div class="task"><h1>EXPLORE THE WORLD</h1>
+      <div class="line"></div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quaerat eaque fuga? Harum, veniam? Veniam voluptas illum qui magni dolores accusamus?</p>
+      <a href="#" class="ctn1">Learn More</a>
+      </div>
+    </section>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      })
     </script>
-</body>
+  </body>
 </html>
