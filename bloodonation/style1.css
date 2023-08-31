@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+
+}
+.formm
+{
+  background-color: rgb(255, 255, 177);
+  text-align: center;
+  padding-top: 17vmin;
+  padding-bottom: 17vmin;
+  justify-content:center;
+  align-items: center;
+  font-size: 4vmin;
+  width: 70vmin;
+  margin: auto;
+
+}
+h2{
+  text-align: center;
+  padding-top: 10vmin;
+  font-size: 10vmin;
+  color: red;
+  
+}
+.formh{
+  text-align: center;
+  position:  center;
+}
+body{
+  background-color: rgb(56, 149, 186);
+}
+input[type=button]{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(217, 239, 248);
+  text-decoration: solid;
+}
+.sub{
+  text-align: center;
+}
